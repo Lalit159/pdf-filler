@@ -6,8 +6,8 @@ const createWindow = () => {
     const win = new BrowserWindow({ // creating new browser window
       width: 800,
       height: 600,
-    //   webPreferences:{ // attach preload script to renderer processes
-    //     preload: path.join(__dirname, 'preload.js') // load and execute the preload.js script in the renderer process before loading any web page content. 
+    //   webPreferences:{ 
+    //     preload: path.join(__dirname, 'preload.js') 
     //   }
     })
   
