@@ -1,0 +1,20 @@
+{
+  "name": "pdf-filler",
+  "version": "1.0.0",
+  "description": "fill the editable pdfs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Lalit Gidwani",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "pspdfkit": "^2024.3.0"
+  }
+}
